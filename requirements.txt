@@ -1,3 +1,0 @@
-bme280==0.7
-smbus==1.1.post2
-smbus2==0.5.0
