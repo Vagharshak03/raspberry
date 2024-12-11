@@ -53,7 +53,8 @@ Measures ambient light intensity in lux (lx).
 
 PMS5003 (Air Quality):
 Measures particulate matter (PM2.5, PM10) concentration in µg/m³.
-Hardware Setup
+
+## Hardware Setup
 
 Raspberry Pi 3: Used as the microcontroller to read sensor data and process it.
 
