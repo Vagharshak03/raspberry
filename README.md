@@ -1,28 +1,28 @@
 # Project Setup and Run Instructions
 
-1. Clone the Git Repository
+Step 1: Clone the Git Repository
 First, clone the repository to your local machine using the following command:
 
-git clone <repository-url>
+git clone repository-url
 Navigate into the project directory:
 
-cd <project-directory>
+cd project-directory
 
-2. Install Virtual Environment
+Step 2: Install Virtual Environment
 Create a virtual environment to manage your project dependencies:
 python -m venv venv
 
-3. Activate the Virtual Environment
+Step 3: Activate the Virtual Environment
 source venv/bin/activate
 
-4. Install Requirements
+Step 4: Install Requirements
 Once the virtual environment is activated, install the project dependencies by running:
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
 This will install all the necessary Python packages.
 
-5. Run the Flask Application
+Step 5. Run the Flask Application
 Finally, start the Flask app with the following command:
 python3 main.py
 
