@@ -11,5 +11,3 @@ class LTR390:
         return self.ltr.uvi, self.ltr.light
 
 
-# a = LTR390()
-# print(a.read_ltr_data())

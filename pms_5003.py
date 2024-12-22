@@ -1,11 +1,11 @@
 import serial
 import time
 
-class PM25Sensor:
+class PMS5003:
     def __init__(self, port='/dev/serial0', baudrate=9600, timeout=1):
         self.ser = serial.Serial(port, baudrate=baudrate, timeout=timeout)
 
-    def read_sensor_data(self):
+    def read_pms_data(self):
         request_frame = b'\x42\x4d\x00\x00\x00\x00\x00\x00\x00\x00'
         self.ser.write(request_frame)
         time.sleep(1)

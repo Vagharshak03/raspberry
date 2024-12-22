@@ -11,5 +11,3 @@ class BME280:
         return self.bme280.temperature, self.bme280.relative_humidity, self.bme280.pressure
 
 
-# a = BME280()
-# print(a.read_bme_data())
